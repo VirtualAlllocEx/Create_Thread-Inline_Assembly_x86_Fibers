@@ -1,6 +1,5 @@
 # Create_Thread-Inline_Assembly_x86_Fibers
 This POC provides the ability to execute **x86 shellcode** in the form of a .bin file based on **x86 inline assembly and execution over fibers**.
-
 The POC includes a calc.bin, which executes the Windows x86 calculator and can be replaced for example by a **x86 meterpreter.bin payload**.
 
 # **Disclaimer**
