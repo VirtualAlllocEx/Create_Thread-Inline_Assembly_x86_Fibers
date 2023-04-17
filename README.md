@@ -65,3 +65,9 @@ This code part frees the executable memory that was allocated earlier using the 
 
     return 0;
 ```
+
+# **References** 
+
+- https://www.ired.team/offensive-security/code-injection-process-injection/process-injection
+- https://www.ired.team/offensive-security/code-injection-process-injection/loading-and-executing-shellcode-from-portable-executable-resources
+- https://www.ired.team/offensive-security/code-injection-process-injection/executing-shellcode-with-createfiber
