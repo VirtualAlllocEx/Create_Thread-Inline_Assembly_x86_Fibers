@@ -5,6 +5,9 @@ The POC includes a calc.bin, which executes the Windows x86 calculator and can b
 # **Disclaimer**
 The content and all code examples in this article are for research purposes only and must not be used in an unethical context! The code used is not new and I make no claim to it. Most of the code comes, as so often, from the **ired.team, thank you @spotheplanet for your brilliant work and sharing it with us all!**
 
+# **Fibers?**
+Fibers are a lightweight threading mechanism provided by Windows, which allow for cooperative multitasking within a single process. Unlike threads, which are managed by the operating system and have their own system resources (such as a separate stack and register set), fibers share the same system resources as the parent thread and switch between tasks using their own stack and register set. This makes fibers faster and more efficient than threads for certain types of tasks.
+
 # **Description**
 This code part initializes a handle (HRSRC) to a binary resource in the executable file. The FindResource() function locates the resource based on its name (IDR_CALC_BIN1) and type (CALC_BIN). The NULL parameter specifies the module instance handle, which is not needed in this case since the resource is located in the same executable file.
 ``` HRSRC codeResource;
